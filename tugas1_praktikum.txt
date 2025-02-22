@@ -1,0 +1,38 @@
+1. Dokumen root adalah direktori atau folder utama di server web tempat file-file situs web disimpan dan diakses oleh pengguna melalui browser.
+
+2. Tidak, dokumen root pada Apache web server tidak harus selalu terletak di direktori C:\xampp\htdocs. Meskipun C:\xampp\htdocs adalah direktori dokumen root default untuk instalasi XAMPP, Anda dapat mengubahnya sesuai kebutuhan.
+
+3. Pengertian nya:
+- git init ini digunakan untuk menginisialisasi repositori Git baru di direktori lokal.
+- git clone ini digunakan untuk membuat Salinan repositori Git dari repositori Jarak jauh (remote repository) ke computer lokal.
+- git remote ini digunakan untuk menagelola koneksi ke repositori Jarak jauh.
+- git add ini digunakan untuk menambahkan perubahan file ke area staging.
+-git commit ini digunakan untuk menyimpan perubahan yang telah ditambahkan ke area staging ke dalam Riwayat repositori.
+- git push ini digunakan untuk mengirim commit dari repositori lokal ke repositori Jarak jauh.
+- git checkout ini digunakan untuk berpindah antar cabang (branch) atau mengembalikan file ke keadaan sebelumnya.
+
+4. Perbedaan GitHub dan GitLab:
+- GitHub: Lebih fokus pada kolaborasi pengembangan perangkat lunak dan manajemen kode, Kuat di kolaborasi komunitas dan open source, Dikenal dengan antarmuka pengguna yang sederhana dan mudah digunakan. GitHub Actions menyediakan fitur CI/CD, tetapi mungkin memerlukan konfigurasi tambahan untuk alur kerja yang kompleks. Memiliki komunitas pengembang yang lebih besar dan lebih mapan. Sangat populer untuk proyek sumber terbuka.
+Model Hosting:
+* Terutama platform berbasis cloud (SaaS).
+* Menawarkan opsi GitHub Enterprise Server untuk hosting mandiri (self-hosted), tetapi ini adalah produk berbayar.
+- GitLab: Lebih fokus pada siklus hidup DevOps lengkap, menyediakan fitur-fitur untuk integrasi berkelanjutan (CI/CD), manajemen proyek, dan keamanan. Menawarkan solusi "single application" untuk seluruh siklus hidup pengembangan perangkat lunak. Memiliki fitur CI/CD yang lebih terintegrasi dan kuat. GitLab CI/CD terintegrasi secara mendalam dengan platform, menawarkan alur kerja yang lebih kuat dan fleksibel. Komunitasnya terus berkembang, tetapi secara keseluruhan lebih kecil dari GitHub.
+Mendapatkan popularitas di kalangan organisasi yang mencari solusi DevOps lengkap.
+Model Hosting:
+* Menawarkan opsi hosting cloud (GitLab.com) dan hosting mandiri (GitLab Community Edition dan GitLab Enterprise Edition).
+* Versi hosting mandiri gratis (Community Edition) memberikan fleksibilitas lebih bagi organisasi yang ingin mengontrol infrastruktur mereka.
+
+5. Perbedaan variable user dan variable system:
+- Variabel User:
+*Variabel yang didefinisikan oleh pengguna atau developer dalam program atau skrip.
+*Biasanya digunakan untuk menyimpan data yang berkaitan dengan proses atau tugas tertentu dalam aplikasi atau sistem yang sedang dikembangkan.
+*Nilai dari variabel ini dapat diubah atau diatur sesuai kebutuhan pengguna.
+- Variabel System:
+* Variabel yang sudah ada di dalam sistem operasi atau perangkat lunak yang digunakan oleh sistem.
+* Variabel ini biasanya digunakan untuk menyimpan informasi yang dibutuhkan oleh sistem untuk berjalan dengan baik, seperti jalur direktori, pengaturan sistem, atau informasi lingkungan lainnya.
+* Nilai variabel ini umumnya ditentukan oleh sistem atau lingkungan tempat aplikasi berjalan dan tidak sering diubah oleh pengguna secara langsung.
+
+6. Persamaan variable user dan variable system:
+* Variabel system dan variabel constant keduanya memiliki nilai yang relatif tetap atau tidak sering berubah selama operasi program atau sistem.
+* Variabel system membantu sistem operasi atau aplikasi berjalan dengan cara menyimpan informasi lingkungan yang penting.
+* Variabel constant membantu menjaga integritas data atau pengaturan yang tidak boleh diubah selama eksekusi program.
