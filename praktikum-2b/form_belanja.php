@@ -43,20 +43,16 @@
                             <label class="col-4">Pilih Produk</label> 
                             <div class="col-8">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="produk" id="tomat" value="TOMAT" required>
-                                    <label class="form-check-label" for="tomat">Tomat</label>
+                                    <input class="form-check-input" type="radio" name="produk" id="tv" value="TV" required>
+                                    <label class="form-check-label" for="tomat">TV</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="produk" id="cabai" value="CABAI">
-                                    <label class="form-check-label" for="cabai">Cabai</label>
+                                    <input class="form-check-input" type="radio" name="produk" id="kulkas" value="KULKAS">
+                                    <label class="form-check-label" for="kulkas">Kulkas</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="produk" id="bawangmerah" value="BAWANG_MERAH">
-                                    <label class="form-check-label" for="bawangmerah">Bawang Merah</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="produk" id="bawangputih" value="BAWANG_PUTIH">
-                                    <label class="form-check-label" for="bawangputih">Bawang Putih</label>
+                                    <input class="form-check-input" type="radio" name="produk" id="mesincuci" value="MESIN_CUCI">
+                                    <label class="form-check-label" for="mesincuci">Mesin Cuci</label>
                                 </div>
                             </div>
                         </div>
@@ -89,10 +85,9 @@
                 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     // Ensure you have the prices array
                     $ar_produk = [
-                        'TOMAT' => 15000,
-                        'CABAI' => 35000,
-                        'BAWANG_MERAH' => 28000,
-                        'BAWANG_PUTIH' => 22000
+                        'TV' => 4200000,
+                        'KULKAS' => 3100000,
+                        'MESIN CUCI' => 3800000
                     ];
 
                     // Process form
@@ -107,7 +102,7 @@
                     echo "<h1>Detail Belanja</h1>";
                     echo "<p>Nama Customer: $nama_customer</p>";
                     echo "<p>Produk Pilihan: $produk</p>";
-                    echo "<p>Harga per Kg: Rp " . number_format($harga_produk, 0, ',', '.') . "</p>";
+                    echo "<p>Harga Satuan: Rp " . number_format($harga_produk, 0, ',', '.') . "</p>";
                     echo "<p>Jumlah: $jumlah</p>";
                     echo "<p>Total Belanja: Rp " . number_format($total_belanja, 0, ',', '.') . "</p>";
                 }
@@ -119,10 +114,9 @@
                 <div class="harga-container">
                     <h4 class="text-center">Daftar Harga ༄ ˖˚</h4>
                     <ul>
-                        <li><strong>Tomat</strong>: Rp. 15.000</li>
-                        <li><strong>Cabai</strong>: Rp. 35.000</li>
-                        <li><strong>Bawang Merah</strong>: Rp. 28.000</li>
-                        <li><strong>Bawang Putih</strong>: Rp. 22.000</li>
+                        <li><strong>Tv</strong>: Rp. 4.200.000</li>
+                        <li><strong>Kulkas</strong>: Rp. 3.100.000</li>
+                        <li><strong>Mesin Cuci</strong>: Rp. 3.800.000</li>
                     </ul>
                 </div>
             </div>

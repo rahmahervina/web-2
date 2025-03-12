@@ -1,8 +1,7 @@
 <?php
 // Data produk
 $ar_produk = [
-    'TOMAT' => 15000,
-    'CABAI' => 35000,
-    'BAWANG_MERAH' => 28000,
-    'BAWANG_PUTIH' => 22000,
+    'TV' => 4200000,
+    'KULKAS' => 3100000,
+    'MESIN CUCI' => 3800000,
 ];
